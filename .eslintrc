@@ -1,0 +1,17 @@
+{
+    "root": true,
+    "parser": "babel-eslint",
+    "extends": "standard",
+    "env": {
+        "node": true
+    },
+    "plugins": [
+        "no-async-without-await"
+    ],
+    "rules": {
+        "arrow-parens": 0,
+        "space-before-function-paren": 0,
+        "no-irregular-whitespace": 0,
+        "no-async-without-await/no-async-without-await": 2
+    }
+}
